@@ -35,5 +35,6 @@ async def painel(interaction: discord.Interaction):
 
 # Inicie o bot
 import os
-bot.run(os.getenv('DISCORD_TOKEN')
+bot.run(os.getenv('MTQzNzA5MDMzOTkxODgzOTk4MA.Gj8Wdr.TINK7Xxno5gQpu3k0isJ9cGjCdYYwVOmQOYY9A')
+
 
