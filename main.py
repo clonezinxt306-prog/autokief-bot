@@ -34,4 +34,6 @@ async def painel(interaction: discord.Interaction):
     await interaction.response.send_message(embed=embed, view=view, ephemeral=True)
 
 # Inicie o bot
-bot.run("MTQzNzA5MDMzOTkxODgzOTk4MA.GmdLEQ.Gm0O_niDLNDIih1YqYr-kMoRGngA7-VdL-zbIo")
+import os
+bot.run(os.getenv('DISCORD_TOKEN')
+
